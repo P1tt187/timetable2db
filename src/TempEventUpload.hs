@@ -1,7 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 module TempEventUpload where
 --
-import Network.HTTP.Enumerator
+import Network.HTTP.Conduit
 import Network.HTTP.Types
 --import Network.Browser
 --
@@ -14,7 +14,7 @@ import Text.XML.Light
 import qualified Codec.Binary.Base64.String as Base64
 import qualified Data.ByteString.Lazy.UTF8 as BSLU
 --
-import Network.TLS (TLSCertificateUsage (CertificateUsageAccept))
+--import Network.TLS (TLSCertificateUsage (CertificateUsageAccept))
 --
 --
 -- user: schedule

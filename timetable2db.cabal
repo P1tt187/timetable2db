@@ -15,10 +15,10 @@ Executable timetable2db
   Build-depends:     base >= 4.2 
                    , tagsoup -any, bytestring -any
                    , attoparsec -any, aeson -any
-                   , http-types -any, http-enumerator -any
+                   , http-types -any, http-conduit -any
                    , network -any, utf8-string -any
                    , containers -any
-                   , tls -any, http-enumerator -any
+                   , tls -any, http-conduit -any
                    , iconv -any, split -any, base64-string -any
                    , xml -any, directory -any
 

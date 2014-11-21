@@ -2,7 +2,7 @@ module HTTPRequest where
 --
 -- Libs for web request
 -- -- ===============================================
-import Network.HTTP.Enumerator
+import Network.HTTP.Conduit
 import Network.HTTP.Types
 import qualified Data.ByteString.Lazy.UTF8 as BSLU
 import Network.Socket
